@@ -96,7 +96,7 @@ double calculateWidth()
 
     double width = distanceCalculation();
 
-    printf("The width of the city encompassed by your request is  %.3f \n", width);
+    printf("The width of the city encompassed by your request is %.3f\n", width);
 
     return 1;
     
@@ -110,7 +110,7 @@ double calculateHeight()
 
     double height = distanceCalculation();
 
-    printf("The height of the city encompassed by your request is  %.3f \n", height);
+    printf("The height of the city encompassed by your request is %.3f \n", height);
 
     return 1;
 
