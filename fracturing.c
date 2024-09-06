@@ -90,7 +90,9 @@ double calculateArea()
 
 }
 
-double calculateWidth(){
+double calculateWidth()
+
+{
 
     double width = distanceCalculation();
 
@@ -102,15 +104,15 @@ double calculateWidth(){
 }
 
 
-double calculateHeight(){
+double calculateHeight()
+
+{
 
     double height = distanceCalculation();
 
-    printf("The width of the city encompassed by your request is  %.3f \n", height);
+    printf("The height of the city encompassed by your request is  %.3f \n", height);
 
     return 1;
-
-
 
 
 
