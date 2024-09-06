@@ -27,9 +27,9 @@ double distanceCalculation(){
 
 
 
-    double discalculation = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2));
+    double calculation = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2));
 
-    double calculation = discalculation / 2
+    
 
     // Print the results
     printf("Point #1 entered: x1 = %.3f; y1 = %.3f\n", x1, y1);
