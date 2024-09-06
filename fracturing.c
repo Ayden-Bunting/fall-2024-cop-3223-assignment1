@@ -27,7 +27,7 @@ double distanceCalculation(){
 
 
 
-    double calculation = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2));
+    double calculation = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2)) / 2;
 
     
 
