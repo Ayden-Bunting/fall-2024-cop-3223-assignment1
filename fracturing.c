@@ -30,12 +30,12 @@ double distanceCalculation()
     printf("Enter your x value for Point #1: ");
     scanf("%lf", &x1);
 
-    printf("Enter your y value for Point #1: ");
-    scanf("%lf", &y1);
-    
-    
     printf("Enter your x value for Point #2: ");
     scanf("%lf", &x2);
+    
+    
+    printf("Enter your y value for Point #1: ");
+    scanf("%lf", &y1);
 
     printf("Enter your y value for Point #2: ");
     scanf("%lf", &y2);
@@ -43,7 +43,7 @@ double distanceCalculation()
 
 
     // This is the calculation for distance.
-    double calculation = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2)) / 2;
+    double calculation = sqrt(pow(x2 - x1,2) + pow(y2 - y1,2));
 
     
 
