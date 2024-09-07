@@ -1,3 +1,10 @@
+// Ayden Bunting
+// COP 3223C
+// ay268578
+// 09-06-2024
+
+
+
 #include <stdio.h>
 #include <math.h>
 
@@ -12,10 +19,10 @@ double distanceCalculation()
 {
 
     // These define the variables that we will be using.
-    double x1=0;
-    double x2=0;
-    double y1=0;
-    double y2=0;
+    double x1 = 0;
+    double x2 = 0;
+    double y1 = 0;
+    double y2 = 0;
 
 
 
@@ -61,7 +68,7 @@ double calculateDistance()
 
 
     // Saves the return value from "distanceCalculation" as a variable names distance
-    double distance= distanceCalculation();
+    double distance = distanceCalculation();
 
 
 
@@ -186,10 +193,6 @@ double calculateHeight()
     return 1;
 
 }
-
-
-
-
 
 
 
